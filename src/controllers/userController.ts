@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { myDataSource } from "../app-data-source";
+import { myDataSource } from "../libs/app-data-source";
 import { user } from "../models/user.entity";
 
 export const allUsers = async (req: Request, res: Response) => {

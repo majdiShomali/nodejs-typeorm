@@ -1,5 +1,5 @@
 import app from './app';
-import { myDataSource } from "./app-data-source";
+import { myDataSource } from "./libs/app-data-source";
 
 // Load environment variables from .env file
 import { config } from 'dotenv';
