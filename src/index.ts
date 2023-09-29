@@ -16,7 +16,7 @@ myDataSource
   });
 
 // start express server
-const PORT = process.env.PORT || 3000; // Default port to 3000 if not specified in .env
+const PORT = process.env.PORT || 3000; 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
